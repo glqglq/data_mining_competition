@@ -84,7 +84,7 @@ def tuning(path):
     y = tmp[:,-2][1:].astype(np.int)
     w = tmp[:,-3][1:].astype(np.float)
 
-    grid1 = {'n_estimators': [50]}
+    grid1 = {'n_estimators': [50,60]}
     grid2 = {'reg_lambda': [3,5,7,9]}
     grid3 = {'colsample_bylevel': [0.8]}
     grid4 = {'gamma': [0]}
