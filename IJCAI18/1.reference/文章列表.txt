@@ -1,0 +1,9 @@
+https://www.leiphone.com/news/201704/Py7Mu3TwRF97pWc7.html  —— 详解 Kaggle 房价预测竞赛优胜方案：用 Python 进行全面数据探索
+https://www.leiphone.com/news/201704/XdTHyRfvacQjaxEz.html  —— 一个实例告诉你：Kaggle 数据竞赛都有哪些套路
+http://blog.csdn.net/liubo7887/article/details/78258596?locationNum=10&fps=1  —— Kaggle入门数据集Titanic代码记录
+http://www.10tiao.com/html/506/201702/2651615394/1.html  —— Kaggle泰坦尼克数据的随机森林实战[上]
+https://dnc1994.com/2016/04/rank-10-percent-in-first-kaggle-competition/  —— 如何在 Kaggle 首战中进入前 10%
+https://zhuanlan.zhihu.com/p/33109591  —— kaggle实战-房价预测
+http://blog.csdn.net/yan456jie/article/details/72638774  —— 【干货】Kaggle 数据挖掘比赛经验分享
+https://zhuanlan.zhihu.com/p/31230764  —— 分享一波关于做Kaggle比赛，Jdata，天池的经验，看完我这篇就够了。
+https://zhuanlan.zhihu.com/p/26645088  —— 
