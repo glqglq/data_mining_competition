@@ -208,4 +208,85 @@
   - 改变时区为北京时间+所有统计特征+删除buy-count：0.079055
   - 改变时区为北京时间+所有统计特征+删除browse-count：0.078905
   - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览：0.078958
+- 线上：
+  - 改变时区为北京时间+所有统计特征：0.078968-0.08181
+  - 改变时区为北京时间+所有统计特征+删除buy-count：0.079055-0.08173
+  - 改变时区为北京时间+所有统计特征+删除browse-count：0.078905-0.08215
+  - **改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览：0.078958-0.08148**
+- **结论：删除buy-count和这个小时是否是第一次、最后一次浏览**
+
+## 4-13
+
+- 线下：
+  - 改变时区为北京时间+所有统计特征：0.079003
+
+  - 改变时区为北京时间+所有统计特征+删除buy-count：0.078996
+
+  - 改变时区为北京时间+所有统计特征+删除browse-count：0.079001
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览：0.078844-0.08148
+
+    ​
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count：0.078978-
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count：0.079009-
+
+    ​
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count：0.078964
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600：0.078937
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600：0.078937
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600；删除next-browse-time：0.078834-0.08152
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600；删除last-browse-time：0.078961
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600；删除next-browse-time；删除browse_count_today：0.07899
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600；删除next-browse-time；删除browse_count_tohour：0.078894
+
+- 线上：
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览：0.078844-0.08148
+  - [glqglqglq1]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count：0.079009-0.08177
+  - [glqglqglq2]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count：0.078978-0.08151
+  - [glqglqglq3]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count：0.078964-0.08177
+  - [post5862]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count；删除browse-count-hour-ago-3600：0.078937-0.08186
+
+
+
+## 4-15
+
+- Baseline：
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count：0.078964-0.08177
+- 线下：
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count；删除next-browse-time：**0.078822**
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count；删除last-browse-time：0.079046
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count；删除next-browse-time：
+- 线上：
+  - [glqglqglq1]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count；删除next-browse-time：**0.078822-0.08138**
+  - [glqglqglq3]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count；删除last-browse-time：0.079046-0.08168
+  - [post5862]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count；删除browse_count_today：0.079061-0.08155
+  - [?]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除buy-count；删除browse-count；删除browse_count_tohour：0.079025-
+
+## 4-16
+
+- baseline：
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览：0.078844
+
+- 线下：
+
+  - [glqglqglq1]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time：0.07888-0.08131
+  - [glqglqglq2]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除last-browse-time：0.079009-0.08123
+  - [glqglqglq3]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time：**0.078835-0.08101**
+  - [post5862]改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time；删除browse-count-hour-ago-3600：0.078799-0.08114
+
+  ​
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time；删除browse_count_today：0.078872-
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time；删除browse-count-hour-ago-3600；删除browse-count-today：0.078957
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time；删除browse-count-hour-ago-3600；删除browse-count-tohour：0.07892
   - ​
