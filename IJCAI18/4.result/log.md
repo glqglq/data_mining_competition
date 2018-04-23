@@ -232,12 +232,7 @@
 
   - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count：0.079009-
 
-    ​
   - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count：0.078964
-
-  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600：0.078937
-
-  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600：0.078937
 
   - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除browse-count；删除buy-count；删除browse-count-hour-ago-3600；删除next-browse-time：0.078834-0.08152
 
@@ -290,3 +285,77 @@
   - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time；删除browse-count-hour-ago-3600；删除browse-count-today：0.078957
   - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time；删除browse-count-hour-ago-3600；删除browse-count-tohour：0.07892
   - ​
+
+## 4-17
+
+- Baseline：
+
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time：0.078835-0.08101
+
+- 线上：
+
+  - [glqglqglq1]调整计数为平均计数+xgb：0.078808-0.08140
+  - [glqglqglq2]调整计数为平均计数+lbg：0.079098-0.08275
+  - [glqglqglq3]0.5xgb + 0.5lbg：-0.08190
+  - [post5862]0.6xgb+0.4lbg：-0.08176
+  - 0.4xgb+0.6lbg：
+
+
+## 4-18
+
+- Baseline：
+  - 改变时区为北京时间+所有统计特征+删除这个小时是否是第一次、最后一次浏览；删除next-browse-time；删除last-browse-time：0.078835-0.08101
+- 线上：
+  - [glqglqglq1]调整计数为平均计数+网格调参+xgb：0.07879-0.08136
+  - [glqglqglq2]调整计数为平均计数+网格调参+lbg：0.0790777-0.08275
+  - [glqglqglq3]0.5xgb + 0.5lbg：-0.08186
+  - [post5862]0.6xgb+0.4lbg：-0.08172
+  - 0.4xgb+0.6lbg：
+
+# 4.22
+
+- Baseline：
+
+  - 所有特征：0.079037
+
+- 尝试：
+
+  - 删除hour-browse-is-first/last：0.079045
+  - 删除next-browse-time：0.079053
+  - 删除last-browse-time：0.079063
+
+
+  - [post5862]删除next-browse-time、last-browse-time：**0.078981**-0.08525
+  - 删除next-browse-time、last-browse-time、hour-browse-is-first/last：0.078996
+  - 删除hour-browse-is-first/last、last-browse-time：**0.078978**
+  - 删除hour-browse-is-first/last、next-browse-time：**0.078978**
+
+  ​
+
+  - 所有特征：0.079023（better）
+  - 删除hour-browse-is-first/last：0.079004（better）
+  - [glqglqglq2]删除next-browse-time：**0.078944（better）**
+  - 删除last-browse-time：:0.079176（worse）
+
+  - 删除next-browse-time、last-browse-time：0.079109
+  - 删除next-browse-time、last-browse-time、hour-browse-is-first/last：0.079023
+  - 删除hour-browse-is-first/last、last-browse-time：0.079019
+  - 删除hour-browse-is-first/last、next-browse-time：0.078976
+
+  ​
+
+  - 删除browse-count-hour-ago-3600：0.079056
+  - 删除next-browse-time、browse-count-hour-ago-3600：0.079061
+
+
+
+
+-0.078912
+
+
+
+
+276-0.08533
+461-0.08624
+345-0.08559
+286-0.08537
