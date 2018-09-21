@@ -1,0 +1,4 @@
+基本特征：query、文章、点击
+相似度特征：prefix与title、prefix与query prediction的平均/加权平均、title与query prediction的平均/加权平均、tag与title、tag与prefix、tag与query prediction平均/加权平均
+热度特征：浏览量、点击量、转化率
+jaccard、余弦相似度
